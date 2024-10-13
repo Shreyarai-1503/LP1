@@ -16,11 +16,10 @@ public class Optimal {
         int farthest = -1;
 
         for (int i = 0; i < frames.length; i++) {
-            int framePage = frames[i];
             int j;
 
             for (j = currentIndex + 1; j < n; j++) { 
-                if (pages[j] == framePage) {
+                if (pages[j] == frames[i]) {
                     break;
                 }
             }
