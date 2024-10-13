@@ -1,0 +1,79 @@
+GOMS (Goals, Operators, Methods, and Selection rules) is a cognitive modeling technique used to analyze user behavior in interaction with systems. Below is a detailed implementation of GOMS for the specified scenarios:
+
+--------------------------------------------------------------------------------------------
+1. Goal: Select an Item and Add It to Cart
+
+Goal: The user wants to select an item and add it to their shopping cart.
+
+Operators:
+- O1: Navigate to the product category.
+- O2: Browse the list of items.
+- O3: Select the desired item.
+- O4: Click on the "Add to Cart" button.
+
+Methods:
+- M1: 
+  1. Use O1 to navigate to the desired product category.
+  2. Use O2 to browse items.
+  3. Use O3 to select the desired item.
+  4. Use O4 to add the item to the cart.
+
+- M2 (Alternate Method): 
+  1. Use a search feature to find the item directly (O1).
+  2. Use O3 and O4 to add the item to the cart.
+
+Selection Rules:
+- If the user knows the item’s category, use Method M1.
+- If the user knows the specific item name or code, use Method M2.
+
+--------------------------------------------------------------------------------------------
+2. Goal: Delete the Mail
+
+Goal: The user wants to delete a specific email from their inbox.
+
+Operators:
+- O1: Open the email client.
+- O2: Browse the inbox.
+- O3: Select the email to be deleted.
+- O4: Click on the "Delete" button.
+
+Methods:
+- M1:
+  1. Use O1 to open the email client.
+  2. Use O2 to locate the email to be deleted.
+  3. Use O3 to select the email.
+  4. Use O4 to delete the email.
+
+- M2 (Alternate Method):
+  1. Use a search feature to find the specific email (O1).
+  2. Use O3 and O4 to delete the email.
+
+Selection Rules:
+- If the user can quickly find the email in the inbox, use Method M1.
+- If the email is buried or the user remembers specific details about it, use Method M2.
+
+--------------------------------------------------------------------------------------------
+3. Goal: Close Window
+
+Goal: The user wants to close a window on their computer or application.
+
+Operators:
+- O1: Click on the "X" button in the window corner.
+- O2: Use keyboard shortcuts (e.g., Alt + F4).
+- O3: Right-click on the window title bar and select "Close."
+
+Methods:
+- M1:
+  1. Use O1 to click the "X" button to close the window.
+
+- M2:
+  1. Use O2 to press Alt + F4 to close the current window.
+
+- M3 (Alternate Method):
+  1. Use O3 to right-click the title bar.
+  2. Select the "Close" option from the context menu.
+
+Selection Rules:
+- If the "X" button is easily accessible and visible, use Method M1.
+- If the user prefers keyboard shortcuts for efficiency, use Method M2.
+- If the user is using a touch interface or prefers context menus, use Method M3.
