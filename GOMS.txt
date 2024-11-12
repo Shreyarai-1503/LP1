@@ -77,3 +77,16 @@ Selection Rules:
 - If the "X" button is easily accessible and visible, use Method M1.
 - If the user prefers keyboard shortcuts for efficiency, use Method M2.
 - If the user is using a touch interface or prefers context menus, use Method M3.
+
+--------------------------------------------------------------------------------------------
+The GOMS model is a technique to analyze how users perform tasks on a computer or device. 
+It helps in understanding the sequence of actions that a user takes to complete a task and can be 
+used to predict the time it will take to perform that task.
+
+GOMS stands for:
+
+Goals: What the user wants to accomplish (e.g., "Save a file").
+Operations: The basic actions the user performs to achieve the goal (e.g., clicking, typing).
+Methods: A sequence of operations to achieve a goal (e.g., "Click File > Click Save As > Type file name > Click Save").
+Selection Rules: If there are different methods to achieve the same goal, the selection rules 
+define which method to use in a particular situation (e.g., "If it's the first time saving, use the 'Save As' method").
